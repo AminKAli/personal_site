@@ -2,6 +2,6 @@
 title: "About"
 ---
 
-I'm a tinkerer based somewhere between hardware and software. I build small tools, keep a home server alive, and write down what I learn along the way.
+I'm a software engineer who tinkers with hardware and software, following my curiosity and exploring technologies along the way.
 
-This site is hand-written HTML — no framework, no build step. It should load fast and read fine on anything with a screen.
+This site is built with Hugo and kept deliberately minimal. It should load fast and read fine on anything with a screen.
