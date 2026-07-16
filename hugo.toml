@@ -3,7 +3,11 @@ locale = 'en-us'
 title = 'Amin Ali'
 theme = 'tiny_ember'
 
-[params]
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+    [params]
   tagline = "Following my curiosity and exploring technology."
   accentHue = 50
   github = "https://github.com/AminKAli"
