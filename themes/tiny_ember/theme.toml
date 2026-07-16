@@ -1,0 +1,11 @@
+name = "Tiny Ember"
+license = "MIT"
+licenselink = "https://github.com/username/tiny_ember/blob/main/LICENSE"
+description = "A warm, minimal theme: plain HTML, one accent, nothing else."
+homepage = "https://github.com/username/tiny_ember"
+tags = ["minimal", "blog", "personal", "dark mode", "responsive"]
+features = ["light/dark toggle", "system theme default", "configurable accent", "no build step"]
+min_version = "0.100.0"
+
+[author]
+  name = "Amin Ali"

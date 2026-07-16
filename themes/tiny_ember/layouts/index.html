@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ .Content }}
+{{ if or site.Params.github site.Params.mastodon site.Params.email }}
+<p class="muted">Elsewhere —{{ with site.Params.github }} <a href="{{ . }}">GitHub</a>{{ end }}{{ with site.Params.mastodon }} · <a href="{{ . }}">Mastodon</a>{{ end }}{{ with site.Params.email }} · <a href="{{ . }}">Email</a>{{ end }}</p>
+{{ end }}
+{{ end }}

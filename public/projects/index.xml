@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Projects on Amin Ali</title>
+		<link>http://localhost:1313/projects/</link>
+		<description>Recent content in Projects on Amin Ali</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>homelab-dash</title>
+				<link>http://localhost:1313/projects/homelab-dash/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/homelab-dash/</guid>
+				<description>Single-file status dashboard for my home server.</description>
+			</item>
+			<item>
+				<title>inkline</title>
+				<link>http://localhost:1313/projects/inkline/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/inkline/</guid>
+				<description>CLI journal that stores entries as plain markdown.</description>
+			</item>
+	</channel>
+</rss>

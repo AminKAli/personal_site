@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ .Content }}
+<ul class="projects">
+  {{ range .Pages.ByWeight }}
+  <li>
+    <a class="name" href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+    <span class="summary">{{ .Params.summary }}</span>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,25 @@
+baseURL = 'https://aminali.net/'
+locale = 'en-us'
+title = 'Amin Ali'
+theme = 'tiny_ember'
+
+[params]
+  tagline = "Following my curiosity and exploring technology."
+  accentHue = 50
+  github = "https://github.com/AminKAli"
+  mastodon = ""
+  email = "mailto:me@aminali.net"
+
+[menus]
+  [[menus.main]]
+    name = "About"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    name = "Projects"
+    pageRef = "/projects"
+    weight = 20
+  [[menus.main]]
+    name = "Journal"
+    pageRef = "/journal"
+    weight = 30

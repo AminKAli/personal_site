@@ -1,0 +1,8 @@
+{{ define "main" }}
+<h1 style="margin-bottom: 4px">{{ .Title }}</h1>
+<p class="meta" style="margin-bottom: 18px; font-size: 14px">{{ with .Params.year }}{{ . }}{{ end }}{{ with .Params.link }} · <a href="{{ . }}">source</a>{{ end }}</p>
+{{ .Content }}
+<div class="post-nav">
+  <a href="{{ .Parent.RelPermalink }}">&larr; All projects</a>
+</div>
+{{ end }}
