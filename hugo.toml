@@ -7,7 +7,7 @@ theme = 'tiny_ember'
   [caches.images]
     dir = ':cacheDir/images'
 
-    [params]
+[params]
   tagline = "Following my curiosity and exploring technology."
   accentHue = 50
   github = "https://github.com/AminKAli"
